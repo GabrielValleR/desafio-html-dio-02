@@ -4,27 +4,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bom Sorriso</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-   <div id="container">
-        <nav>
-            <h1></h1>
-            <nav>
-                <ol></ol>
-            </nav>
+   <div class="container">
+        <nav>            
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Horário de atendimento</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#about">Sobre a clínica</a></li>
+                
+            </ul>
         </nav>
         <div>
-            <header>
-                <fieldset>
+            <header id="home">
+                <h1>A Saúde começa pela boca</h1>
+                <fieldset class="container">
                     <legend>Bom Sorriso</legend>
-                    <h1>A Saúde começa pela boca</h1>
-                    <p>
-                        Se você está procurando um dentista de confiança perto de você, agende uma avaliação na Bom Sorriso. 
-                    </p>
-                    <p>
-                        Temos dentistas capacitados para cuidar da sua saúde bucal e consultórios odontológicos completos para tratar toda a família.
-                    </p>
-                </fieldset>                
+                    <div id="presentation">
+                        <p>
+                            Se você está procurando um dentista de confiança perto de você, agende uma avaliação na Bom Sorriso. 
+                        </p>
+                        <p>
+                            Temos dentistas capacitados para cuidar da sua saúde bucal e consultórios odontológicos completos para tratar toda a família.
+                        </p>
+                    </div>
+                    <img src="https://i2.wp.com/centroconscientia.com.br/wp-content/uploads/2019/08/alexander-kopelman-4fa6.jpg?w=942" width="50%"/>
+                    
+                    <br><br><br><a href="#home" >Voltar</a> 
+                </fieldset>  
+                <fieldset id="service">
+                    <legend>Horario de Atendimento</legend>
+                    <h2>Confira o horario de atendimento dos nossos medicos</h2>
+                    <table border="1" align="center" width="700" cellspacing="5" cellpadding="5">
+                        <tr>
+                        <th>Nome</th>
+                        <th>Seunda a Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                        </tr>
+                        <tr>
+                            <td>Gabriel </td>
+                            <td>09h - 18h</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Laysa </td>
+                            <td>13h - 19h</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Fernanda </td>
+                            <td>07h - 16h</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Eduarda </td>
+                            <td>07h - 18h</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Julia </td>
+                            <td>07h - 18h</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+
+                    </table>
+                    <fieldset >
+                        <legend id="contact">Contato</legend>
+                        <div class="container">
+                            <img src="https://www.callix.com.br/wp-content/uploads/2019/04/original-ab7df816fcd7c830bfd6b026d52a2c66.jpg" width="40%">
+                            <div id="div-contact">
+                                <h3>Agende a sua consulta</h3>
+                                <p>Entre em contato para saber quem pode atender suas necessidades e disponibilidade dos nossos medicos</p>
+                                <ul>
+                                    <li>Telefone: (67) 3399-9933</li>
+                                    <li>Whatsapp: (67) 99977-7799 </li>
+                                </ul>
+                                <p>Nosso endereço: Av. da Capital, 35 - Vila Rica, Campo Grande - MS, 79022-180
+                                </p>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.58765343086!2d-54.6009579898608!3d-20.441043180986288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e888060f0257%3A0x3417e7db573dc1d5!2sAv.%20da%20Capital%2C%2035%20-%20Vila%20Rica%2C%20Campo%20Grande%20-%20MS%2C%2079022-180!5e0!3m2!1spt-BR!2sbr!4v1708097319980!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                
+                            </div>
+                            
+                        </div>                       
+                        
+                        <h3>Se preferir, nós ligamos pra você</h3>
+                        <p>Deixe seu contato e o tipo de tratamento que deseja realizar ou seus sintomas que ligamos para você</p>
+                        <form>
+                            <label>Seu Nome:</label>
+                            <input type="text" ><br>
+                            <label>Seu Whatsapp:</label> 
+                            <input type="tel" required ><br>
+                            <label>Seu Email:</label>
+                            <input type="email"><br>
+                            <label>Assunto</label>
+                            <input type="text" width="350" height="300"><br>
+                            <input type="button" value="Enviar">
+
+                        </form>
+                    </fieldset>
+                    <br><br><br><a href="#home" >Voltar</a> 
+                </fieldset>     
+                <fieldset>
+                    <legend id="about">Sobre nos</legend>
+                    <h3>Connheça mais sobre a Bom Sorriso</h3>
+                    <div class="container">
+                        <p class="text"> da união de profissionais que amam a saúde, a beleza do equilíbrio e a harmonia da natureza; cada uma veio com sua visão e com seus dons, mas todas somam a vontade de atuar numa Odontologia que vai além de consertar dentes.</p>
+                        <img src="https://static.wixstatic.com/media/786c32_0ec76ab84ba547c7ad657c91006d9326~mv2.jpg/v1/fill/w_640,h_394,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/786c32_0ec76ab84ba547c7ad657c91006d9326~mv2.jpg" width="30%">
+                    </div>
+                    <div class="container">
+                        <img src="https://blog.suryadental.com.br/wp-content/uploads/2014/12/cirurgiaodentista.jpg" width="30%">
+                        <p class="text">
+                            Para nossa equipe, o caminho é o de consciência, de aprendizado constante, para propiciar ao nosso paciente mudanças na sua saúde bucal que causem impacto real e duradouro na sua qualidade de vida: entendemos que todos somos protagonistas da nossa saúde integral: um belo sorriso vem como resultado de um ser em equilíbrio corpo-mente-espírito!
+                        </p>
+                    </div>   
+                    <br><br><br><a href="#home" >Voltar</a>         
+                </fieldset>         
             </header>
         </div>
    </div>
